@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+
+}
+
+.App-link {
+  color: #989fa1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Contact {
+  text-align: center;
+}
+form {
+ padding: 30px;
+ display: flex;
+ flex-direction: column;
+ margin: 20px;
+ justify-content: center;
+ background-color: rgb(50, 197, 42);
+ 
+}
+.FormInscription{
+ height: 300px;
+ margin-left: 90px;
+ margin-bottom: 10px;
+ display: block;
+ border:1px solid rgb(231, 21, 21);
+ border-radius: 70%;
+ 
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #61dafb;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-image: url(https://th.bing.com/th/id/OIP.iPG3hog9QtVipNZMaNRwWAHaEw?pid=ImgDet&rs=1);
+  background-position: center;
+  background-size: cover;
+}
+
+img{
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 2px, 7px, 8px black;
+  transition: transform .1s;
+}
+
+img:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  border-radius: 20px;
+  box-shadow: 2px, 7px, 8px black;
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  
+}
+a{
+  margin: 50px;
+  color: #1b1919;
+  text-decoration: none;
+  border: solid ;
+  background-color: antiquewhite;
+
+}
+
+a:hover{
+  margin: 50px;
+  color: #c43535;
+  background-color: #1b1919;
+  text-decoration: none;
+  border: solid ;
+
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+.sumit{
+  margin: 10px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+}
+
+.sumit:hover{
+  margin: 10px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+  background-color: antiquewhite;
+}
+
+.about{ font-size: 68px;
+
+  
+li{
+  display: flex;
+  justify-content: center;
+ 
+}
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start!important;
+}
